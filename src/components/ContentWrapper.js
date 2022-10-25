@@ -33,7 +33,7 @@ function ContentWrapper() {
                     <ContentRowTop />
                     <Table>
                         {tableRowsData.map((row, i) => (
-                            <TableInfo name={row.name} description={row.descriptions}  category={row.category}   key={row + i} />
+                            <TableInfo name={row.name} description={row.descriptions} category={row.category} key={row + i}/>
                         ))}
                     </Table>
                     <Footer />
